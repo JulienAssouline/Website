@@ -23,6 +23,7 @@ import bazaar from "../images/bazaar.png"
 import space_explorer from "../images/space_explorer.png"
 import dogstagram from "../images/dogstagram.png"
 import hiRED from "../images/hiRED.png"
+import seniorcare from "../images/seniorcare.png"
 
 
 const skills = {
@@ -31,6 +32,7 @@ const skills = {
   JavaScript: "JavaScript",
   Python: "Python",
   React: "React",
+  Redux: "Redux",
   GraphQL: "GraphQL",
   Apollo: "Apollo",
   React_Native: "React Native",
@@ -52,9 +54,10 @@ const Projects = () => (
   <div>
     <Header />
       <div className = "main-container">
-        <ImageComp skills = {[skills.React, skills.Apollo, skills.GraphQL, skills.PostgreSQL]} text = {'hiRED [In progress]'} img = {hiRED} link = {"https://github.com/JunCLi/hiRED"} />
+        <ImageComp skills = {[skills.React_Native, skills.Redux, skills.Apollo, skills.GraphQL, skills.PostgreSQL]} text = {'Seniorcare'} img = {seniorcare} link = {"https://github.com/JulienAssouline/seniorcare"} />
+        <ImageComp skills = {[skills.React, skills.Apollo, skills.GraphQL, skills.PostgreSQL]} text = {'hiRED'} img = {hiRED} link = {"https://github.com/JunCLi/hiRED"} />
         <ImageComp skills = {[skills.React, skills.React_Native, skills.Apollo, skills.GraphQL]} text = {'R10'} img = {r10} link = {"/R10/"} />
-        <ImageComp skills = {[skills.React, skills.Apollo, skills.GraphQL]} text = {'Dogstagram (trying out react-apollo-hooks)'} img = {dogstagram} link = {"https://github.com/JulienAssouline/Dogstagram"} />
+        <ImageComp skills = {[skills.React, skills.Apollo, skills.GraphQL]} text = {'Dogstagram'} img = {dogstagram} link = {"https://github.com/JulienAssouline/Dogstagram"} />
         <ImageComp skills = {[skills.React, skills.Apollo, skills.GraphQL, skills.PostgreSQL, skills.Canvas]} text = {'Space Explorer'} img = {space_explorer} link = {"https://github.com/JulienAssouline/SpaceExplorer"} />
         <ImageComp skills = {[skills.React, skills.Apollo, skills.GraphQL, skills.PostgreSQL, skills.D3]} text = {'Bazaar Marketplace'} img = {bazaar} link = {"http://ec2-35-183-68-196.ca-central-1.compute.amazonaws.com/"} />
         <ImageComp skills = {[skills.JavaScript, skills.React, skills.D3]} text = {"FiveThirtyEight's endorsement dashboard [Remake]"} img = {FiveThirtyEight} link = {"https://julienassouline.github.io/538_dashboard_remake-/"} />

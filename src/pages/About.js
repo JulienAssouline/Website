@@ -10,9 +10,9 @@ const About = () => (
     <SEO title="about" />
     <div className = "about-page-container">
       <h1> Hi! I'm Julien 👋 </h1>
-      <p>I'm a full stack developer. Currently, I'm learning Full Stack Development at Red Academy where I'm learning React, Redux, Apollo, GraphQL, PostgreSQL, React Native, and more.
-      <br/>
-      <br/>
+
+      <h3 className = "description-text">I'm a full stack developer. I've recently graduated from Red Academy's Full Stack Development program where I learned React, Redux, Apollo, GraphQL, PostgreSQL, React Native, and more.</h3>
+      <p>
       Previously, I've been an intern with CBC where I worked with the interactive team as a developer to build applications and visualizations on the web. I also
       worked with reporters and journalists to gather and clean data.
       <br/>
