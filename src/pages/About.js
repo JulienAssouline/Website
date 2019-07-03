@@ -9,7 +9,7 @@ const About = () => (
   <Layout>
     <SEO title="about" />
     <div className = "about-page-container">
-      <h1> Hi! I'm Julien 👋 </h1>
+      <h1 className = "about-title"> Hi! I'm Julien 👋 </h1>
 
       <h3 className = "description-text">I'm a full stack developer. I've recently graduated from Red Academy's Full Stack Development program where I learned React, Redux, Apollo, GraphQL, PostgreSQL, React Native, and more.</h3>
       <p>

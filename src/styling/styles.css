@@ -109,6 +109,7 @@
   line-height: 1.5;
   max-width: 40.35rem;
   font-size: 20px;
+  font-family: "Exo 2", sans-serif;
 }
 
 @media only screen and (max-width: 420px) {
@@ -131,6 +132,9 @@
   text-decoration: none;
   padding: 10px;
   font-weight: bold;
+  font-family: "Exo 2", sans-serif;
+  margin: 0px;
+
 }
 
 .project-container {
@@ -159,6 +163,7 @@ a {
   font-size: 15px;
   margin-top: -10px;
   padding-top: 10px;
+  font-family: "Exo 2", sans-serif;
 }
 
 .bottom-border {
@@ -171,8 +176,17 @@ a {
 .description-text {
   font-size: 23px;
   font-weight: normal;
+  font-family: "Exo 2", sans-serif;
 }
 
+.about-title {
+  font-family: "Exo 2", sans-serif;
+  font-size: 40px;
+}
+
+p {
+  font-family: "Exo 2", sans-serif;
+}
 
 
 .r10_img {
@@ -225,11 +239,13 @@ a {
 
 .nav-text {
   color: black;
-  font-weight: 400;
+  font-weight: 100;
   cursor: pointer;
   font-size: 0.95em;
   text-transform: uppercase;
-  padding-top: 20px;
+  padding-top: 10px;
+  transition: font-weight .4s ease-in-out;
+  font-family: "Exo 2", sans-serif;
 }
 
 .icon {
@@ -237,6 +253,7 @@ a {
   margin-right: 10px;
   cursor: pointer;
   font-size: 1.2em;
+  font-family: "Exo 2", sans-serif;
 }
 
 .icon:hover{
@@ -274,9 +291,8 @@ a {
 
 
 
-.text-header-container:hover {
-  background-color: #689fab;
-  transition: 0.5s;
+.nav-text:hover {
+  font-weight: 900;
 }
 
 
@@ -317,6 +333,7 @@ a {
   font-weight: normal;
   font-style: normal;
   font-size: 70px;
+  font-family: "Exo 2", sans-serif;
 }
 
 @media only screen and (max-width: 850px) {
