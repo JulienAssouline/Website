@@ -24,8 +24,13 @@
 
 .home-container {
   margin: auto;
-    width: 90%;
+  width: 100%;
+}
 
+@media only screen and (max-width: 1100px) {
+  .home-container {
+    width: 90%;
+  }
 }
 
 
