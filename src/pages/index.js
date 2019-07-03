@@ -54,13 +54,14 @@ const skills = {
 }
 
 
+
 const IndexPage = () => (
   <Layout>
     <div className = "body-container">
       <div className = "hero-text-container">
       <div className="name">
         <svg height="100" width="1000" style = {{strokeWidth: 2}} stroke="#333"  className="text-line">
-            <text style={{fontWeight: "normal", fontStyle: "normal", fontSize: 70}} x="0" y="80" fill="none" >Hey, I'm Julien Assouline</text>
+            <text className = "name-text" x="0" y="80" fill="none" >Hey, I'm Julien Assouline</text>
           </svg>
       </div>
       <p className = "title-description">I'm a Full Stack Developer passionate about building applications, tools, data visualizations and coding in general to improve peoples lives and make the world a better place. </p>

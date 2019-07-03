@@ -60,7 +60,7 @@ const Projects = () => (
         <ImageComp skills = {[skills.React, skills.Apollo, skills.GraphQL]} text = {'Dogstagram'} img = {dogstagram} link = {"https://github.com/JulienAssouline/Dogstagram"} />
         <ImageComp skills = {[skills.React, skills.Apollo, skills.GraphQL, skills.PostgreSQL, skills.Canvas]} text = {'Space Explorer'} img = {space_explorer} link = {"https://github.com/JulienAssouline/SpaceExplorer"} />
         <ImageComp skills = {[skills.React, skills.Apollo, skills.GraphQL, skills.PostgreSQL, skills.D3]} text = {'Bazaar Marketplace'} img = {bazaar} link = {"http://ec2-35-183-68-196.ca-central-1.compute.amazonaws.com/"} />
-        <ImageComp skills = {[skills.JavaScript, skills.React, skills.D3]} text = {"FiveThirtyEight's endorsement dashboard [Remake]"} img = {FiveThirtyEight} link = {"https://julienassouline.github.io/538_dashboard_remake-/"} />
+        <ImageComp skills = {[skills.JavaScript, skills.React, skills.D3]} text = {"FiveThirtyEight dashboard"} img = {FiveThirtyEight} link = {"https://julienassouline.github.io/538_dashboard_remake-/"} />
         <ImageComp skills = {[skills.JavaScript, skills.Python, skills.D3, skills.REGL]} text = {"CBC Sunshine List"} img = {sunshine_list} link = {"https://www.cbc.ca/news/canada/toronto/search-ontario-s-2017-sunshine-list-for-yourself-1.4590239"} />
         <ImageComp skills = {[skills.JavaScript, skills.D3]} text = {"Chord Diagram Template for Flourish"} img = {chord_diagram} link = {"https://flourish.studio/2018/07/25/how-to-make-a-chord-diagram/"} />
         <ImageComp skills = {[skills.JavaScript, skills.D3]} text = {"Parliament Template for Flourish"} img = {Flourish_Parliament} link = {"https://flourish.studio/2018/07/06/how-to-make-parliament-chart/"} />
