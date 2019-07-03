@@ -261,6 +261,11 @@ p {
   transition: 0.5s;
 }
 
+.icons-container {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
 .text-header-container {
     margin: 10px;
     margin-left: 3em;
