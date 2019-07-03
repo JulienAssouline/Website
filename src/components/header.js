@@ -5,9 +5,6 @@ import "../styling/styles.css"
 
 import { withPrefix } from 'gatsby'
 
-  console.log(window.innerWidth)
-
-
 const Header = ({ siteTitle }) => (
   <header className = "header">
     <div className = "header-text-container">
