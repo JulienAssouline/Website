@@ -1,3 +1,8 @@
+
+.home-container {
+  width: 60%
+}
+
 .main-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -15,6 +20,12 @@
   .main-container {
       grid-template-columns: 1fr;
   }
+}
+
+.home-container {
+  margin: auto;
+    width: 90%;
+
 }
 
 
@@ -357,6 +368,14 @@ p {
   .name-text {
     font-size: 25px;
   }
+}
+
+.r10-title {
+  font-family: "Exo 2", sans-serif;
+}
+
+.r10-text {
+  font-family: "Exo 2", sans-serif;
 }
 
 

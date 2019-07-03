@@ -18,8 +18,8 @@ const R10 = () => (
   <Layout>
     <SEO title="R10" />
     <div className = "r10-container">
-      <h1> R10 </h1>
-      <p> R10 is a react native conference app. It is getting data from
+      <h1 className = "r10-title"> R10 </h1>
+      <p className = "r10-text"> R10 is a react native conference app. It is getting data from
         a publicaly available graphql end point made by Red Academy. The code for this project
         can be found on my github repo <a className = "r10-github-link" href = "https://github.com/JulienAssouline/R10">HERE</a>.
         This was mainly a frontend project. </p>
