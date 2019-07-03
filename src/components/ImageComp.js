@@ -5,10 +5,7 @@ import "../styling/styles.css"
 
 function ImageComp(props) {
 
-  console.log(props.link)
-
   const link_check = props.link.includes("http")
-  console.log(link_check)
 
   return (
     <div className = "project-container">

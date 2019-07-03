@@ -26,6 +26,14 @@
   margin: auto;
 }
 
+@media only screen and (max-width: 420px) {
+  .header {
+    width: 90%;
+  }
+}
+
+
+
 .image-container {
   width: 100%;
   height: 100%;
@@ -79,10 +87,34 @@
   width: 70%;
 }
 
+@media only screen and (max-width: 800px) {
+  .hero-text-container {
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-text-container {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .hero-text-container {
+    margin-top: 20px;
+  }
+}
+
 .title-description {
   line-height: 1.5;
   max-width: 40.35rem;
   font-size: 20px;
+}
+
+@media only screen and (max-width: 420px) {
+  .title-description {
+    font-size: 15px;
+  }
 }
 
 .image {
@@ -234,6 +266,13 @@ a {
   }
 }
 
+@media only screen and (max-width: 420px) {
+  .nav-text {
+    font-size: 0.65em;
+  }
+}
+
+
 
 .text-header-container:hover {
   background-color: #689fab;
@@ -289,6 +328,12 @@ a {
 @media only screen and (max-width: 600px) {
   .name-text {
     font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .name-text {
+    font-size: 25px;
   }
 }
 
