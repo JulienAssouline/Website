@@ -55,7 +55,7 @@ const Projects = () => (
     <Header />
       <div className = "main-container">
         <ImageComp skills = {[skills.React_Native, skills.Redux, skills.Apollo, skills.GraphQL, skills.PostgreSQL]} text = {'Seniorcare'} img = {seniorcare} link = {"https://github.com/JulienAssouline/seniorcare"} />
-        <ImageComp skills = {[skills.React, skills.Apollo, skills.GraphQL, skills.PostgreSQL]} text = {'hiRED'} img = {hiRED} link = {"https://github.com/JunCLi/hiRED"} />
+        <ImageComp skills = {[skills.React, skills.Apollo, skills.GraphQL, skills.PostgreSQL]} text = {'hiRED'} img = {hiRED} link = {"https://github.com/JulienAssouline/hiRED"} />
         <ImageComp skills = {[skills.React, skills.React_Native, skills.Apollo, skills.GraphQL]} text = {'R10'} img = {r10} link = {"/R10/"} />
         <ImageComp skills = {[skills.React, skills.Apollo, skills.GraphQL]} text = {'Dogstagram'} img = {dogstagram} link = {"https://github.com/JulienAssouline/Dogstagram"} />
         <ImageComp skills = {[skills.React, skills.Apollo, skills.GraphQL, skills.PostgreSQL, skills.Canvas]} text = {'Space Explorer'} img = {space_explorer} link = {"https://github.com/JulienAssouline/SpaceExplorer"} />
