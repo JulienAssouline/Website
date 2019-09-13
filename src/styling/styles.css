@@ -1,6 +1,6 @@
 
 .home-container {
-  width: 60%
+    width: 60%;
 }
 
 .main-container {
@@ -85,9 +85,12 @@
 }
 
 .hero-text-container {
-  margin-top: 80px;
-  margin-bottom: 100px;
-  width: 70%;
+    position:absolute; top: 80px;
+    z-index: 1;
+    height: 100%;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    width: 70%;
 }
 
 @media only screen and (max-width: 800px) {

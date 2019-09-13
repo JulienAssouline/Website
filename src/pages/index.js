@@ -5,6 +5,7 @@ import "../styling/styles.css"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Background from "../components/Background"
 
 import ImageComp from "../components/ImageComp"
 import chord_diagram from "../images/Flourish_Chord_diagram.png"
@@ -58,6 +59,7 @@ const skills = {
 const IndexPage = () => (
   <Layout>
     <div className = "home-container">
+    <Background />
       <div className = "hero-text-container">
       <div className="name">
         <svg height="100" width="1000" style = {{strokeWidth: 2}} stroke="#333"  className="text-line">
