@@ -1,8 +1,13 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import "../styling/styles.css"
 import Layout from "../components/layout"
+import Image from "../components/image"
+import SEO from "../components/seo"
+import Background from "../components/Background"
 
+import Logo from "../components/Logo"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
@@ -10,28 +15,6 @@ import {
   faLinkedin,
   faGithub,
 } from "@fortawesome/fontawesome-free-brands"
-
-const skills = {
-  HTML: "HTML",
-  CSS: "CSS",
-  JavaScript: "JavaScript",
-  Python: "Python",
-  React: "React",
-  GraphQL: "GraphQL",
-  Apollo: "Apollo",
-  React_Native: "React Native",
-  D3: "D3",
-  PostgreSQL: "PostgreSQL",
-  Node: "Node",
-  Express: "Express",
-  REST_API: "REST API",
-  MongoDB: "MongoDB",
-  Canvas: "Canvas",
-  GreenSock: "GreenSock",
-  MapBox_GL: "MapBox GL",
-  REGL: "REGL",
-  Three: "Three.js",
-}
 
 const IndexPage = () => (
   <Layout>
