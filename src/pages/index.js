@@ -1,13 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import "../styling/styles.css"
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
-import Background from "../components/Background"
 
-import Logo from "../components/Logo"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
