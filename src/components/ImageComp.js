@@ -1,25 +1,24 @@
 import React from "react"
-import { Link } from "gatsby"
 import "../styling/styles.css"
 
-function ImageComp(props) {
-  const link_check = props.link.includes("http")
+function ImageComp({ link, skills, img, text }) {
+  const link_check = link.includes("http")
 
   return (
     <div className="project-container">
       <div className="link-container">
         <a
-          href={props.link}
+          href={link}
           className="project-link"
           target={link_check ? "_blank" : ""}
         >
           <div className="image-container">
-            <img className="image" src={props.img} alt={props.text} />
+            <img className="image" src={img} alt={text} />
           </div>
           <div className="image-text-container">
-            <p className="post-title">{props.text}</p>
+            <p className="post-title">{text}</p>
             <div className="skills-container">
-              {props.skills.map((e, i) => (
+              {skills.map((e, i) => (
                 <div key={"skill" + i}>
                   <p className="skills">{e}</p>
                   <div className="bottom-border"></div>

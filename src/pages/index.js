@@ -36,20 +36,16 @@ const IndexPage = () => (
         </p>
         <div className="icons-container">
           <a href="mailto:julien1993@hotmail.ca">
-            {" "}
             <FontAwesomeIcon icon={faEnvelope} className="icon fa-5x" />{" "}
           </a>
           <a href="https://github.com/JulienAssouline">
-            {" "}
             <FontAwesomeIcon icon={faGithub} className="icon fa-5x" />{" "}
           </a>
           <a href="https://www.linkedin.com/in/julienassouline/">
-            {" "}
             <FontAwesomeIcon icon={faLinkedin} className="icon fa-5x" />{" "}
           </a>
 
           <a href="https://twitter.com/JulienAssouline">
-            {" "}
             <FontAwesomeIcon icon={faTwitter} className="icon fa-5x" />{" "}
           </a>
         </div>
